@@ -1,7 +1,21 @@
 # Client Library Generation
-This project demonstrated the follwoing:
-Generate a typescript sdk client using Nswag as an output artifact on the Api build process
-Use the auto generate client to excute Api requests on the Angular App
+This project demonstrated the following:
+* Generate a typescript sdk client as an artefact of the Api build process which uses Nswag MS Build nuget package.
+* Use the auto-generate client to execute API requests on an Angular App.
+
+# Source Code
+The Angular App and Api are stock standard projects with minor changes.
+
+## Angular App
+* App Module provider for API_BASE_URL.
+* environment settings.
+* A button click to trigger the http client requests.
+
+## Api
+* CORS settings.
+* NSwag configuration file as per references.
+* NSWag OpenApi code generation as per references.
+* 
 
 # References
 * [Sql Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)
