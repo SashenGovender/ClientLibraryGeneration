@@ -118,7 +118,7 @@
       "templateDirectory": null,
       "serviceHost": null,
       "serviceSchemes": null,
-      "output": "../../sdk-client.ts",
+      "output": "../../my-weather-app/src/app/sdk/sdk-client.ts",
       "newLineBehavior": "Auto"
     }
   }
